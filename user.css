@@ -9,8 +9,7 @@
   display: var(--scrollbars);
 }
 .os-scrollbar-handle {
-  border-radius: 50px;
-  background: var(--spice-button-disabled) !important;
+  opacity: 0;
 }
 /* remove shadows */
 * {
@@ -607,4 +606,14 @@ input:hover:not([disabled]):not(:active) ~ .x-toggle-indicatorWrapper {
 }
 .npv-progress-bar__rail {
   height: 6px;
+}
+
+.Root__nav-bar {
+  border-right-style: solid;
+  border-right-color: var(--spice-button-disabled);
+  border-right-width: 5px;
+}
+.main-trackList-rowImage {
+  border-width: 2px;
+  border-style: solid;
 }
